@@ -8,10 +8,10 @@ xrdp
 Ansible Galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.xrdp](https://galaxy.ansible.com/devops-toolbox.xrdp)
+[https://galaxy.ansible.com/devopstoolbox.xrdp](https://galaxy.ansible.com/devopstoolbox.xrdp)
 
 ```bash
-ansible-galaxy install devops-toolbox.xrdp
+ansible-galaxy install devopstoolbox.xrdp
 ```
 
 Requirements
@@ -47,7 +47,7 @@ Example Playbook
   tasks:
     - name: xrdp is configured
       import_role:
-        name: devops-toolbox.xrdp
+        name: devopstoolbox.xrdp
       vars:
         xrdp_enable_service: true
         xrdp_firewall_configure: true
@@ -64,4 +64,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
