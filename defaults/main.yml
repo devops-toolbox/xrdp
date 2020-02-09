@@ -1,0 +1,7 @@
+---
+# defaults file for xrdp
+
+xrdp_enable_service: true
+xrdp_firewall_configure: true
+xrdp_firewall_rules:
+  - port: 3389/tcp
